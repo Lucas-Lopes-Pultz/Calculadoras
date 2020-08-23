@@ -13,6 +13,7 @@ body{
     float: left;
     color: white;
     cursor: pointer;
+    position: fixed;
 }
 
 /* Content */
@@ -23,14 +24,14 @@ body{
     left: -10vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: auto;
     position: relative;
 }
 
 /* Title */
 
 .main-title h1{
-    margin: 0 0 10px 0;
+    margin: 20px 0;
     font-size: 40px;
     color: white;
 }

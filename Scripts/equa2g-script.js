@@ -65,7 +65,6 @@ function deltaNeg(delta) {
 }
 
 function calcularRaizes() {
-    document.getElementsByTagName('body')[0].style.marginTop = '50px'
     res.removeAttribute('class','alert alert-danger')
     a.style.backgroundColor = ''
 
@@ -87,7 +86,6 @@ function calcularRaizes() {
 }
 
 function calcularXY() {
-    document.getElementsByTagName('body')[0].style.marginTop = '50px'
     res.removeAttribute('class','alert alert-danger')
     a.style.backgroundColor = ''
 
