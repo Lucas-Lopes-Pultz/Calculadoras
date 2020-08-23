@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: 
+    linear-gradient(-45deg,black,#222,rgb(68, 71, 61), rgb(100, 89, 89),rgb(107, 122, 139));
+    animation: fundo 3.5s ease-in-out;
+    background-size: 400% 400%;
+}
+
+@keyframes fundo {
+    0% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+
+/* title*/
+
+#title h1{
+    color: white;
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+
+#title h1::after{
+    content: "";
+    border-top: solid white 2px;
+    width: 15%;
+    position: absolute;
+    top: 70px;
+    left: 42.5%;
+}
+
+/* Cards */
+
+.card img{
+    margin: 20px auto;
+}
+
+.card{
+    box-shadow: 5px 5px 10px #444;
+    margin: 0 auto;
+}
+
+.card-body p {
+    padding: 20px 0;
+}
+
+/* Copy */
+
+#copy{
+    color: white;
+    margin: 100px 0;
+    font-size: 20px;
+}

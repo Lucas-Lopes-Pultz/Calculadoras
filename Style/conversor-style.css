@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: 
+    linear-gradient(-45deg,black,#222,rgb(68, 71, 61), rgb(100, 89, 89),rgb(107, 122, 139));
+    background-size: 400% 400%;
+}
+
+/* icon */
+
+.icon a svg{
+    margin: 50px;
+    float: left;
+    color: white;
+    cursor: pointer;
+}
+
+/* Content */
+
+.container{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+/* Title */
+
+.main-title h1{
+    margin: 0 0 10px 0;
+    font-size: 40px;
+    color: white;
+}
+
+#copy{
+    color: white;
+    margin: 20px 0;
+}
+
+/* buttons */
+
+.jumbotron input{
+    margin: 20px;
+    text-align: center;
+}
+
+/* resultado */
+
+#res{
+    margin-top: 20px;
+}
+
+/* Links */
+
+#link h5{
+    margin: 20px 0;
+}
+
+#link button{
+    text-decoration: none;
+    margin: 10px;
+}
+
+#link a{
+    text-decoration: none;
+    margin: 10px;
+}
+
