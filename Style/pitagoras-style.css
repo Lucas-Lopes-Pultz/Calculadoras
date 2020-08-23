@@ -22,14 +22,13 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
 }
 
 /* Title */
 
 .main-title h1{
-    margin: 0 0 10px 0;
+    padding: 50px 0;
     font-size: 40px;
     color: white;
 }
