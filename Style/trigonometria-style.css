@@ -13,6 +13,7 @@ body{
     float: left;
     color: white;
     cursor: pointer;
+    position: fixed;
 }
 
 /* Content */
@@ -21,7 +22,6 @@ body{
     width: 500px;
     height: 100vh;
     display: flex;
-    left: -10vh;
     flex-direction: column;
     justify-content: center;
     position: relative;

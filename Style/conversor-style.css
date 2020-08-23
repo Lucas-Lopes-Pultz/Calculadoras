@@ -10,9 +10,9 @@ body{
 
 .icon a svg{
     margin: 50px;
-    float: left;
     color: white;
     cursor: pointer;
+    position: fixed;
 }
 
 /* Content */

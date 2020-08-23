@@ -10,7 +10,6 @@ body{
 
 .icon a svg{
     margin: 50px;
-    float: left;
     color: white;
     cursor: pointer;
     position: fixed;
@@ -31,7 +30,7 @@ body{
 /* Title */
 
 .main-title h1{
-    margin: 20px 0;
+    padding: 20px 0;
     font-size: 40px;
     color: white;
 }
