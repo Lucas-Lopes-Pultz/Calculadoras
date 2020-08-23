@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/conversor-style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Conversor</title>
+</head>
+<body style="background-color: rgba(84, 129, 197, 0.897)">
+
+    <div class="container text-center col-6"> 
+
+        <div class="main-title">
+            <h1>De fração para decimal</h1>
+        </div>
+
+        <div class="jumbotron">
+            <p>
+                Numerador:
+                <input type="number" name="" id="nume" autofocus>
+            </p>
+             
+            <p>
+                Denominador:
+                <input type="number" name="" id="deno">
+            </p>
+                <div id="botao">
+                    <br><input type="button" class="btn btn-primary" value="Converter" id="btn" onclick="converter()">
+                </div>
+
+                <div id="res">
+            
+                </div>
+        </div>
+        
+
+        <div id="link" class="alert alert-light" role="alert">
+            <h5>Voltar:</h5>
+
+            <button type="button" class="btn btn-link">
+                <a href="./eq2g.html">-> Equação de 2ºgrau</a>
+            </button>
+        </div>
+
+        <div id="copy">
+            <p>&copy; Feito por Lucas Lopes Pultz</p>
+        </div>
+        
+    </div>   
+       
+
+    <script src="./Scripts/conversor-script.js"></script>
+</body>
+</html>
