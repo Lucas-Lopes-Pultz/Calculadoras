@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background: 
-    linear-gradient(-45deg,black,#222,rgb(68, 71, 61), rgb(100, 89, 89),rgb(107, 122, 139));
+    linear-gradient(-45deg,black,#222,rgb(68, 71, 61), rgb(102, 87, 87),rgb(107, 122, 139));
     background-size: 400% 400%;
 }
 
