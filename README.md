@@ -1,2 +1,2 @@
 # Calculadoras
- three efficient calculators for learning geometry and equations ;)
+ Three efficient calculators for learning geometry and equations ;)
