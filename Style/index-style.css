@@ -51,8 +51,7 @@ body{
 
 .card{
     box-shadow: 5px 5px 10px #444;
-    margin: 0 auto;
-    left: -10px;
+    margin: 20px auto;
 }
 
 .card-body p {
