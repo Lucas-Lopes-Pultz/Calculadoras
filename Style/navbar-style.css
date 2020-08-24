@@ -64,6 +64,7 @@
     .navbar-links{
         display: none; 
         width: 100%;
+        margin-right: 100px;
     }
     
     .navbar{
