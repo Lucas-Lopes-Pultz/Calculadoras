@@ -3,6 +3,12 @@ let nume = document.getElementById('nume')
 let res = document.getElementById('res')  
 let erro = ''
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
 
 function isWrite(n,d){
     if(n.length == 0 || d.length == 0){

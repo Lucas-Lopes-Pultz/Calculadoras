@@ -5,7 +5,12 @@ const ca2 = document.getElementById('ca2')
 const res = document.getElementById('res')
 let erro = ''
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
 
 function ladosIsWrite(h=0,c1=0,c2=0,ang=0){
     if(h <= 0 && c1 <= 0 && c2 <= 0){

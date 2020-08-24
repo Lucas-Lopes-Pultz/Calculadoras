@@ -4,6 +4,13 @@ let c2 = document.getElementById('cat2')
 let res = document.getElementById('res')
 let erro = ''
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
+
 const calcPitagoras = {
     cateto1: (c2, h) => {return Math.pow((Math.pow(c2,2) - Math.pow(h,2)),0.5)},
     cateto2:  (c1, h) => {return Math.pow((Math.pow(c1,2) - Math.pow(h,2)),0.5)},
@@ -74,14 +81,14 @@ function calcular() {
         res.innerHTML += `Valor do Cateto adjacente = ${vlrc2(h.value, c1.value)}`
     }else{
         if(erro == 1){
-            if(c1.value > h.value || c2.value > h.value){
-                res.style.color = 'red'
-                erro = 'A medida dos catetos não podem ser maiores que o da hipotenusa.'
+            if(c1.value >= h.value || c2.value >= h.value){
+                res.setAttribute('class','alert alert-danger')
+                erro = 'A medida dos catetos não podem ser maiores ou iguais a hipotenusa.'
                 res.innerHTML = erro
             }else{
                 res.innerHTML = `Valor da hipotenusa = ${h.value}<br><br>`
-            res.innerHTML += `Valor do Cateto oposto = ${c1.value}<br><br>`
-            res.innerHTML += `Valor do Cateto adjacente = ${c2.value}`
+                res.innerHTML += `Valor do Cateto oposto = ${c1.value}<br><br>`
+                res.innerHTML += `Valor do Cateto adjacente = ${c2.value}`
             }
         }else{
             res.setAttribute('class','alert alert-danger')

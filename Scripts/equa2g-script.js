@@ -5,6 +5,12 @@ const c = document.getElementById('vlrc')
 const res = document.getElementById('res')
 const btn = document.getElementsByName('btn-neg')
 
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active')
+        })
 
 const calcEq2g = {
     delta(a, b = 0, c = 0) { return Math.pow(b, 2) - 4 * Number(a) * Number(c) },
